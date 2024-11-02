@@ -43,5 +43,7 @@ if __name__ == "__main__":
     sequence = get_fibonacci_number_sequence(user_input)
 #outputs
     print(f"The Fibonacci number at position {user_input} is: \n{answer}")
-    print(f"The Fibonacci sequence to reach position {user_input} is: \n{sequence}")
+    print(f"The Fibonacci sequence up to position {user_input} is: \n{sequence}")
+
+
     
