@@ -28,7 +28,7 @@ def get_fibonacci_number_sequence(number):
         #to the list
         #didnt use number-1 here because in testing it would give me
         #the sequence excluding the number I asked for
-        sequence.append(get_fibonacci_number(number))
+        sequence.append(get_fibonacci_number(number - 1))
         return sequence
 
 if __name__ == "__main__":
