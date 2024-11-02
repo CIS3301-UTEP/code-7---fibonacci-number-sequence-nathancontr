@@ -11,15 +11,15 @@ def get_fibonacci_number_sequence(number):
     #if input is 0, there is no sequence to create
     #so it returns an empty list
     if number == 0:
-        return []
+        return [0]
     #the first number in the sequence is 0, so the sequence
     #doesnt need to create a list, it only returns one number
     elif number == 1:
         return [get_fibonacci_number(0)]
     #returns the first two numbers in the sequence,
     #which is 0, and 1, dont need to create a special list code
-    elif number == 2:
-        return [get_fibonacci_number(0), get_fibonacci_number(1)]
+    # elif number == 2:
+        # return [get_fibonacci_number(0), get_fibonacci_number(1)]
     #calls back itself, i use number-1 because the first position isnt 1,
     #it is 0
     else:
