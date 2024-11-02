@@ -39,8 +39,9 @@ if __name__ == "__main__":
     print("\nHello! Welcome to the Fibonacci Number Sequence Finder!")
     user_input = int(input("\n Please enter the position of the number in the Fibonacci Sequence you are asking to find: "))
 
-    answer = get_fibonacci_number_sequence(user_input)
     answer = get_fibonacci_number(user_input)
+    sequence = get_fibonacci_number_sequence(user_input)
 
-    print(answer)
+    print(f"The Fibonacci number at position {user_input} is: \n{answer}")
+    print(f"The Fibonacci sequence to reach position {user_input} is: \n{sequence}")
     
