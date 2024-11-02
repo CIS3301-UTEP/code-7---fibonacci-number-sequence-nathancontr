@@ -13,4 +13,4 @@ if __name__ == "__main__":
     print("\nHello! Welcome to the Fibonacci Number Sequence Finder!")
     user_input = print(int(input("\n Please enter the position of the number in the Fibonacci Sequence you are asking to find: ")))
 
-    pass
+    print(f"The fibonacci number in that position is {get_fibonacci_number(user_input)}!")
