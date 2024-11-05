@@ -12,8 +12,8 @@ def get_fibonacci_number_sequence(number):
     #so it returns an empty list
     if number == 0:
         return [0]
-    #the first number in the sequence is 0, so the sequence
-    #doesnt need to create a list, it only returns one number
+    #the first number in the sequence is 0 and 1, no calculations for the number
+    #in the position, so i return the very same numbers
     elif number == 1:
         return [get_fibonacci_number(0), get_fibonacci_number(1)]
     #returns the first two numbers in the sequence,
