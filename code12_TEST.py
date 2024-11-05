@@ -1,3 +1,7 @@
+#using this .py because I kept getting weird type errors, so wanted to see
+#if a new file would make it work, code was just wrong HAHA
+
+
 def get_fibonacci_number(position):
     #used recursion example from in-class, changed variables to fit this function
     if position == 0:
